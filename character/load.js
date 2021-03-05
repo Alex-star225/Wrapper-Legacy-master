@@ -32,7 +32,7 @@ module.exports = function (req, res) {
 							res.statusCode = 200, res.end(0 + v)
 						})
 					).catch(e => {
-						console.log("Cannot load character because it gave a 404"),
+						console.log("But nobody came."),
 						res.statusCode = 404, res.end(1 + e)
 					});
 			});
